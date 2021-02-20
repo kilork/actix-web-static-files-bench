@@ -1,0 +1,14 @@
+[package]
+name = "example-02-set-01"
+version = "0.1.0"
+authors = ["Alexander Korolev <alexander.korolev.germany@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+# actix-web-static-files = "3"
+actix-web-static-files = { path = "/Volumes/main/projects/actix-web-static-files"}
+
+[build-dependencies]
+actix-web-static-files = { path = "/Volumes/main/projects/actix-web-static-files"}
+# actix-web-static-files = "3"
+hathor = "0.1"
