@@ -7,8 +7,11 @@ edition = "2018"
 [dependencies]
 # actix-web-static-files = "3"
 actix-web-static-files = { path = "/Volumes/main/projects/actix-web-static-files"}
+static-files = "0.2"
 
 [build-dependencies]
-actix-web-static-files = { path = "/Volumes/main/projects/actix-web-static-files"}
+static-files = "0.2"
+# actix-web-static-files = { path = "/Volumes/main/projects/actix-web-static-files"}
 # actix-web-static-files = "3"
 hathor = "0.1"
+change-detection = "1"
