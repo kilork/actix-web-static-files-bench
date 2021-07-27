@@ -1,0 +1,8 @@
+[package]
+name = "mem-helper"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+jemallocator = "0.3"
+jemalloc-ctl = "0.3"
