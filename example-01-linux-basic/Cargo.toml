@@ -8,7 +8,9 @@ edition = "2018"
 actix-service = "1"
 actix-web = "3.0"
 # actix-web-static-files = "3"
-actix-web-static-files = { path = "/Volumes/main/projects/actix-web-static-files"}
+# actix-web-static-files = { path = "/Volumes/main/projects/actix-web-static-files"}
+actix-web-static-files = { git = "https://github.com/kilork/actix-web-static-files.git" }
+
 static-files = "0.2"
 mem-helper = { path = "../mem-helper" }
 
